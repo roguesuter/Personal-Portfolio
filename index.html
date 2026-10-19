@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adrian Suter | Portfolio</title>
+  <meta name="description" content="Portfolio of Your Name — developer, designer, and creator." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">ADRIAN<span>SUTER</span>.</a>
+
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <span class="theme-icon">🌙</span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero" id="hero">
+    <div class="hero-content">
+      <p class="hero-tagline">Hello, I'm <span class="accent">Adrian Suter</span>.</p>
+      <h1 class="hero-title">
+        I build <span class="highlight">digital experiences</span>
+        that matter.
+      </h1>
+      <p class="hero-subtitle">
+        Developer · Network Technician · Creator. I build software and the networks that power it.
+      </p>
+      <div class="hero-actions">
+        <a href="projects.html" class="btn btn-primary">View all projects</a>
+        <a href="#contact" class="btn btn-outline">Say hello</a>
+      </div>
+      <a href="#about" class="hero-scroll">
+        scroll down <span class="arrow">▼</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">About <span class="accent">Me</span></h2>
+        <p class="section-subtitle">A little bit about who I am and what I do.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a <span class="bold">developer and network technician</span> based in <span class="placeholder">Nairobi, Kenya</span>, passionate about building software and the networks that power it.
+          </p>
+          <p>
+            When I'm not coding, you can find me <span class="placeholder">reading or listening to music</span>. I love learning new technologies and sharing what I know with the community.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number">2+</span>
+              <span class="stat-label">Years experience</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">5+</span>
+              <span class="stat-label">Projects completed</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">1</span>
+              <span class="stat-label">Portfolio</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-image">
+          <div class="photo-placeholder">Your photo here</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Projects (2 on homepage) -->
+  <section class="section featured-projects" id="featured">
+    <div class="container">
+      <div class="section-header" style="margin-bottom: 40px;">
+        <h2 class="section-title">Featured <span class="accent">Work</span></h2>
+        <p class="section-subtitle">A selection of recent projects. View all →</p>
+        <a href="projects.html" class="btn btn-outline" style="margin-top: 16px; display: inline-flex; align-items: center; gap: 8px;">
+          All projects →
+        </a>
+      </div>
+      <div class="projects-grid-featured">
+        <!-- Featured Project 1 -->
+        <article class="project-card">
+          <div class="project-image">
+            <div class="project-img-placeholder">Project screenshot</div>
+          </div>
+          <div class="project-content">
+            <span class="project-tag">Web App</span>
+            <h3 class="project-title">Project Name One</h3>
+            <p class="project-description">
+              A short description of what this project does and what your role was.
+            </p>
+            <div class="project-tech">
+              <span>React</span>
+              <span>Node.js</span>
+              <span>Tailwind</span>
+            </div>
+            <a href="#" class="project-link">Go to project →</a>
+          </div>
+        </article>
+        <!-- Featured Project 2 -->
+        <article class="project-card">
+          <div class="project-image">
+            <div class="project-img-placeholder">Project screenshot</div>
+          </div>
+          <div class="project-content">
+            <span class="project-tag">Mobile App</span>
+            <h3 class="project-title">Project Name Two</h3>
+            <p class="project-description">
+              A short description of what this project does and what your role was.
+            </p>
+            <div class="project-tech">
+              <span>React Native</span>
+              <span>Expo</span>
+              <span>TypeScript</span>
+            </div>
+            <a href="#" class="project-link">Go to project →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section skills-section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Skills &amp; <span class="accent">Tools</span></h2>
+        <p class="section-subtitle">Development and networking technologies I work with.</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Development</h3>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>REST APIs</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>VS Code</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Networking</h3>
+          <ul>
+            <li>TCP/IP</li>
+            <li>DNS</li>
+            <li>DHCP</li>
+            <li>Subnetting</li>
+            <li>VLANs</li>
+            <li>Firewalls</li>
+            <li>VPN</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Certifications</h3>
+          <ul>
+            <li>CompTIA A+</li>
+            <li>CCNA (In Progress)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Get in <span class="accent">Touch</span></h2>
+        <p class="section-subtitle">I'm open to new opportunities and collaborations.</p>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info">
+          <p>
+            Have a project in mind? Want to collaborate?
+            Reach out — I'd love to hear from you.
+          </p>
+          <div class="contact-links">
+            <a href="mailto:suteradrian8@gmail.com" class="contact-link">
+              <span class="icon">✉</span>
+              suteradrian8@gmail.com
+            </a>
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener" class="contact-link">
+              <span class="icon">⌂</span>
+              GitHub
+            </a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener" class="contact-link">
+              <span class="icon">💼</span>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Your Name. Built with ❤️ and hosted on GitHub Pages.</p>
+      <div class="footer-note">
+        <a href="#top" class="back-to-top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

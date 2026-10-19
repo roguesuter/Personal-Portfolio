@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume | Your Name</title>
+  <meta name="description" content="Resume of Your Name — developer, designer, and creator." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">YOUR<span>NAME</span>.</a>
+
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <span class="theme-icon">🌙</span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="section" style="padding-top: 140px; padding-bottom: 80px;">
+    <div class="container">
+      <div class="section-header" style="margin-bottom: 48px;">
+        <h2 class="section-title">Resume</h2>
+        <p class="section-subtitle">Download or print my CV below.</p>
+      </div>
+
+      <div class="resume-content" style="max-width: 720px; margin: 0 auto; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 48px;">
+        <div style="text-align: center; margin-bottom: 32px;">
+          <h1 style="font-size: 2rem; font-weight: 700; letter-spacing: -0.02em;">Your Name</h1>
+          <p style="font-family: 'Space Mono', monospace; color: var(--accent); font-size: 0.95rem;">Developer · Designer · Creator</p>
+          <p style="color: var(--muted); font-size: 0.95rem; margin-top: 6px;">[Your City] · yourname@example.com · linkedin.com/in/yourusername</p>
+        </div>
+
+        <h3 style="font-size: 1.1rem; margin: 28px 0 12px; color: var(--fg); border-bottom: 1px solid var(--border); padding-bottom: 6px; display: inline-block;">Experience</h3>
+        <ul style="color: var(--ink); line-height: 1.7; padding-left: 20px;">
+          <li style="margin-bottom: 20px;">
+            <strong>Junior Developer</strong> — [Company Name]<br>
+            <span style="color: var(--muted); font-size: 0.9rem;">[Month Year] – [Month Year]</span>
+            <p style="margin-top: 6px; font-size: 0.95rem;">Brief description of what you did and the impact you made.</p>
+          </li>
+          <li style="margin-bottom: 20px;">
+            <strong>Intern</strong> — [Company Name]<br>
+            <span style="color: var(--muted); font-size: 0.9rem;">[Month Year] – [Month Year]</span>
+            <p style="margin-top: 6px; font-size: 0.95rem;">Brief description of what you did and the impact you made.</p>
+          </li>
+        </ul>
+
+        <h3 style="font-size: 1.1rem; margin: 28px 0 12px; color: var(--fg); border-bottom: 1px solid var(--border); padding-bottom: 6px; display: inline-block;">Education</h3>
+        <ul style="color: var(--ink); line-height: 1.7; padding-left: 20px;">
+          <li style="margin-bottom: 12px;">
+            <strong>[Degree Name]</strong> — [School / University]<br>
+            <span style="color: var(--muted); font-size: 0.9rem;">[Year]</span>
+          </li>
+        </ul>
+
+        <h3 style="font-size: 1.1rem; margin: 28px 0 12px; color: var(--fg); border-bottom: 1px solid var(--border); padding-bottom: 6px; display: inline-block;">Skills</h3>
+        <ul style="color: var(--ink); line-height: 1.7; padding-left: 20px;">
+          <li>Development: HTML5 · CSS3 · JavaScript · React · Node.js · REST APIs · Git · GitHub · VS Code</li>
+          <li>Networking: TCP/IP · DNS · DHCP · HTTP/HTTPS · OSI Model · Subnetting · VLANs · Firewalls · VPN</li>
+          <li>Certifications: CompTIA A+ · CompTIA Network+</li>
+        </ul>
+
+        <div style="margin-top: 40px; text-align: center;">
+          <a href="#" class="btn btn-primary" style="padding: 14px 28px;">Download PDF</a>
+          <button class="btn btn-outline" onclick="window.print(); return false;" style="padding: 14px 28px;">Print</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Your Name. Built with ❤️ and hosted on GitHub Pages.</p>
+      <div class="footer-note">
+        <a href="#top" class="back-to-top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
