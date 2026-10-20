@@ -1,6 +1,8 @@
 # Portfolio Website
 
-A clean, minimal, typography-focused portfolio inspired by [theebruv.dev](https://theebruv.dev).
+https://roguesuter.github.io/Personal-Portfolio/
+
+A clean, minimal, typography-focused portfolio.
 Host it for free on **GitHub Pages** and fill in your own details.
 
 ## Structure
