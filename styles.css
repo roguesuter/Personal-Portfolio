@@ -560,6 +560,17 @@ body.dark .project-tech span {
   align-items: center;
 }
 
+.resume-contact-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px 16px;
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
 .contact-link {
   display: flex;
   align-items: center;
@@ -586,6 +597,48 @@ body.dark .project-tech span {
 
 body.dark .contact-link img.icon-light-in-dark {
   filter: brightness(0) invert(1);
+}
+
+@media print {
+  .navbar {
+    display: none !important;
+  }
+
+  body * {
+    visibility: hidden;
+  }
+
+  .resume-content,
+  .resume-content * {
+    visibility: visible;
+  }
+
+  .resume-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: #ffffff !important;
+    color: #0f172a !important;
+    --fg: #0f172a;
+    --muted: #64748b;
+    --surface: #ffffff;
+    --border: #e2e8f0;
+    --ink: #334155;
+  }
+
+  .resume-content .resume-actions {
+    display: none !important;
+  }
+
+  .resume-content .icon-light-in-dark {
+    filter: none !important;
+  }
 }
 
 /* ---------- Footer ---------- */
