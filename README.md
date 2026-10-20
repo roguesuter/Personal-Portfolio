@@ -1,9 +1,7 @@
 # Portfolio Website
 
-https://roguesuter.github.io/Personal-Portfolio/
 
 A clean, minimal, typography-focused portfolio.
-Host it for free on **GitHub Pages** and fill in your own details.
 
 ## Structure
 
